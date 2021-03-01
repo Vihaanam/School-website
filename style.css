@@ -8,6 +8,8 @@
 
 .nav_bar {
     z-index: 9999;
+    position: sticky;
+    top: 0;
 }
 
 body {
