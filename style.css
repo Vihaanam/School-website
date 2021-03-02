@@ -32,3 +32,53 @@ body {
 #map iframe {
     margin: 0px;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.first_campus {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+    height: 560px;
+}
+
+.first_campus img {
+    width: 100%;
+}
+
+.first_campus hr {
+    width: 100%;
+}
+
+.first_campus h5,
+.first_campus p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.achieve_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.achieve_head i {
+    float: right;
+}
+
+.achievment_img {
+    padding-bottom: 10px;
+}
+
+.achieve_body {
+    text-align: left;
+}
