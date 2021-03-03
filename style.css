@@ -12,10 +12,6 @@
     top: 0;
 }
 
-body {
-    text-align: center;
-}
-
 #video {
     width: 100%;
     height: 500px;
@@ -81,4 +77,17 @@ body {
 
 .achieve_body {
     text-align: left;
+}
+
+.whatnew1 {
+    margin-top: 13px;
+}
+
+.whatnew1 h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.whatnew1 p {
+    margin-top: 13px;
 }
